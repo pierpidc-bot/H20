@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lpk-tp320"
+version = "0.1.0"
+description = "Code-agent HMI preview: LogicPaint .lpk pages as a TP 320 320x240 canvas"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "lpk-tp320 contributors" }]
+keywords = ["logicpaint", "tp320", "hmi", "kernel", "lpk"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Graphics",
+]
+dependencies = ["pillow>=10"]
+
+[project.scripts]
+lpk-tp320 = "preview:main"
+
+[tool.setuptools]
+py-modules = ["preview"]

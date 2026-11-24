@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Python
+.venv/
+**/__pycache__/
+*.pyc
+
+# Anteprima TP320 (output generati)
+tools/tp320_preview/out/
+tools/tp320_preview/out_awl/
+tools/tp320_preview/out_ladder/
+
+# Compilazione LogicPaint (locale)
+Proj/Log/
+tools/plc_comp_test/
+
+# Temporanei
+*.tmp
+*.bak
+*.log

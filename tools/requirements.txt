@@ -1,0 +1,5 @@
+# Generatori H20 (manuale PDF, anteprima, immagini)
+pillow>=10.0.0
+reportlab>=4.0.0
+
+# tp320_preview usa le stesse dipendenze (vedi anche tools/tp320_preview/requirements.txt)
